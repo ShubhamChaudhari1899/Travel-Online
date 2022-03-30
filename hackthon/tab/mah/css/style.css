@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.back{
+    background-image: linear-gradient(to right, rgb(255, 176, 30), rgb(243, 243, 243), rgb(65, 221, 65));
+    height: 450px;
+}
+.center{
+    width: 1080px;
+    margin: auto;
+}
+.logo h2{
+    padding-top: 10px;
+}
+.bar{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    display: inline-block;
+    padding: 20px;
+}
+
+
+
+/* ********   main **************** */
+.heading{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+hr{
+    height: 5px;
+    width: 100px;
+    margin: auto;
+    border-radius: 10px;
+    background: #000;
+}
+.box{
+    padding-top: 50px;
+    width: 1080px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.box img{
+    height: 200px;
+}
+.b1{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.185);
+    border-radius: 20px;
+    width: 250px;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+.b1:hover{
+    transform: translateY(-5px);
+}
+
+.box h2{
+    text-align: center;
+    padding-bottom: 5px;
+}
+/* ********************************** */
+
+.box2{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    margin:50px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.185);
+    cursor: pointer;
+}
+.pho img{
+    width: 350px;
+}
+.par{
+    padding-top: 50px;
+    text-align: center;
+    width: 400px;
+    padding-left: 20px;
+}
+

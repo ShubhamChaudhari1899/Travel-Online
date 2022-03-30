@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .center {
+    width: 1080px;
+    margin: auto;
+  }
+  .logo h2 {
+    padding-top: 10px;
+  }
+  .bar {
+    display: flex;
+    justify-content: space-between;
+  }
+  li {
+    display: inline-block;
+    padding: 20px;
+  }
+  /* *************************************** */
+  .box2 {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.185);
+    cursor: pointer;
+  }
+  .pho img {
+    width: 350px;
+  }
+  .par {
+    padding-top: 50px;
+    text-align: center;
+    width: 400px;
+    padding-left: 20px;
+  }
